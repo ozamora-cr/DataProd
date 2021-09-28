@@ -1,0 +1,46 @@
+---
+title: "Assignment - Predict horsepower from MPG"
+author: "O. Zamora"
+date: "28/9/2021"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Description
+
+
+
+
+
+This shiny app allows a user input the Miles Per Gallon and obtain two model predictions of Horsepower for mtcars dataset.
+
+This is the final assignment for Developing Data Products course.
+
+## Instructions
+
+
+
+
+- The user can select the amount of MPG in the slidebar, also can choose whether to show one or both models in the graph. 
+
+- The calculations are performed and displayed once the Predict button is pressed
+
+
+
+## Dataset
+
+```{r, echo = TRUE}
+head(mtcars)
+```
+
+## Code
+
+
+The code in the ui.R and server.R files can be found in the following link: 
+
+
+https://github.com/ozamora-cr/DataProd/tree/main/Assignment
+
